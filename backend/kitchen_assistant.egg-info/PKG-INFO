@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: kitchen-assistant
+Version: 1.0.0
+Requires-Python: >=3.8
+Requires-Dist: fastapi==0.104.1
+Requires-Dist: uvicorn==0.24.0
+Requires-Dist: sqlalchemy==2.0.23
+Requires-Dist: pydantic==2.5.0
+Requires-Dist: openai==1.3.0
+Requires-Dist: elevenlabs==0.2.21
+Requires-Dist: python-multipart==0.0.6
+Requires-Dist: redis==5.0.1
+Requires-Dist: python-jose[cryptography]==3.3.0
+Requires-Dist: passlib[bcrypt]==1.7.4
+Requires-Dist: sqlite3
+Dynamic: requires-dist
+Dynamic: requires-python
