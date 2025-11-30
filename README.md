@@ -5,13 +5,17 @@ AI app that can assist people in the kitchen, talk through the cooking process, 
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 python -m venv venv
+
 venv\Scripts\activate
 
 cd backend
+
 set PYTHONPATH=%CD%
+
 python -m uvicorn app.main:app --reload --port 8000
 
 git config --global user.email "fpwilliams71@yahoo.com"
+
 git config --global user.name "fpwilliams71"
 
 # Prompts
